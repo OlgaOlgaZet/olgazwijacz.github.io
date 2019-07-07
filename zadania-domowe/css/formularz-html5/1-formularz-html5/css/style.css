@@ -29,6 +29,7 @@ textarea:focus {
 }
 label {
     display: block;
+    padding-bottom: 10px;
 }
 label[for*="male"], 
 label[for="agreement"] {
