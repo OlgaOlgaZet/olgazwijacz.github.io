@@ -1,0 +1,34 @@
+
+*{
+    color: #ffffff;
+}
+form {
+    background-color: #213b50;
+    width: 600px;
+    padding:15px;
+}
+label {
+    display:
+    block;
+}
+input, #mail, #message, #city{
+    background-color: #2b4a64;
+    outline: #ffffff;
+   
+}
+
+input[type]:focus{
+    background-color:#4e708c;
+}
+textarea{
+    width: 280px;
+    height:100px;
+}
+
+input[type*="submit"] {
+    background-color: rgb(12, 182, 83);
+    text-transform: uppercase;
+    font-weight: 700;
+    border: none;
+    padding: 10px 20px ;
+}

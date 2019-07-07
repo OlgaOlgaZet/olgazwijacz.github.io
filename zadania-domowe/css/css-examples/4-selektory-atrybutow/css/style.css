@@ -1,0 +1,18 @@
+[title] {
+    color: brown;
+}
+[title="Main page"] {
+    font-size: 32px;
+}
+[title~="Container"] {
+  background-color: aqua;
+}
+[title*="tion"] {
+    background-color: rgba(255, 153, 0, 0.589);
+  }
+[title^="More"] {
+    background-color: rgb(204, 90, 128);
+  }
+  [title$="skills"] {
+    background-color: rgb(138, 117, 185);
+  }
