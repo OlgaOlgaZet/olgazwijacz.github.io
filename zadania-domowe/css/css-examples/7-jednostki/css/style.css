@@ -1,0 +1,24 @@
+.container {
+    font-size: 20px;
+}
+.container > div {
+    background-color: #ff7900;
+    margin-bottom: 15px;
+  
+}
+.pixels {
+    width: 400px;
+}
+.em {
+    width: 20em;
+}
+.percent {
+    width: 50%;
+}
+/* vh - do wysokości okna przeglądarki */
+.vh {
+width: 60vh;
+}
+.vw {
+    width: 60vh;
+    }
