@@ -1,0 +1,20 @@
+.main-title::before {
+    content: '';
+    color: red;
+    height: 30px;
+    width:30px;
+    border: 2px solid red;  
+    position: absolute;
+   
+}
+/* Z jedną kropką też by działało ale standard jest taki że daje się dwie */
+
+.main-title::after {
+    content: '*';
+    color: green;
+    
+}
+.main-title {
+    font-size: 70px;
+    position: relative; 
+}

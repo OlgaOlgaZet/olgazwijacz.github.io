@@ -1,0 +1,14 @@
+#main-title{
+    color: green;
+}
+.title {
+    color: red;
+}
+h2 {
+    color: blue;    
+}
+
+
+* {
+    color: yellow !important;
+}

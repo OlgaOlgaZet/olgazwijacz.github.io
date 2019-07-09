@@ -1,0 +1,37 @@
+/*  komentasz liniowy shift+ shash */
+li{
+    color:brown;
+}
+/* Selektor id */
+#first-list {
+    background-color: aquamarine;
+}
+/* Selektor klasy */
+.first-item {
+    font-size: 32px;
+}
+/* Selektor potomstwa bezpośredniego */
+section > a {
+    background-color: red;   
+}
+/* Selektor potomstwa */
+section  a {
+    background-color: green;   
+}
+/* shift +alt +a komentarz blokowy */
+/* Selektor bezpośredniego rodzeństwa */
+.middle-item + li {
+  color: green;
+}
+/* Selektor następującego rodzeństwa */
+.middle-item ~li {
+    background-color: orange;
+}
+/* Selektor uniwersalny */
+* {
+    box-sizing: border-box;
+}
+/* Selektory łączone */
+.middle-item.item {
+    font-size:50px;
+}
