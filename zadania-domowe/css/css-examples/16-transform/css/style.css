@@ -1,0 +1,12 @@
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: aquamarine;
+   
+    margin: 10px auto;
+    transform:scale(1.5);
+}
+.box1 {
+    transform: translate(200px, 100px);
+    background-color: red;
+}
