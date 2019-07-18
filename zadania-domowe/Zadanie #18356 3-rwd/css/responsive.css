@@ -1,0 +1,46 @@
+@media (min-width:992px) and (max-width:1170px) {
+header {
+    justify-content: flex-end;
+    align-items: flex-start;
+    background-image: url("../images/man-2.jpg");
+    background-size: contain;
+    background-position-y: -30px;
+
+}
+h1 {
+    margin: 100px 50px;
+  
+    font-size: 28px;
+    line-height: 50px;
+   
+ 
+ 
+  
+}
+span {
+    font-size: 20px;
+}
+}
+@media (max-width:992px) {
+header {
+    justify-content: flex-end;
+    align-items: flex-start;
+    background-image: url("../images/man-1.jpg");
+    background-size: contain;
+    background-position-y: -30px;
+    justify-content: center;
+    align-items: flex-end;
+    text-align: center;
+
+}
+h1 {
+   
+    font-size: 32px;
+    line-height: 60px;
+    color: #000;
+}
+span {
+ 
+    font-size: 20px;
+}
+}

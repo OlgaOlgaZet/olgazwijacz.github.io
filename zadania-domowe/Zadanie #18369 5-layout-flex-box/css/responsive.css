@@ -1,0 +1,74 @@
+@media(min-width:768px) and (max-width:992px) {
+    .flex {
+        font-size: 35px;
+    }
+    header {
+        flex-basis: 100%;
+        background-color: red;
+        padding: 10px 0;
+        order: 1;
+    }
+    .left {
+        flex-basis: 100%;
+        background-color: rgb(43, 102, 3);
+        order: 4;
+    }
+    .right {
+        flex-basis: 20%;
+        background-color: rgb(255, 188, 244);
+        order: 3;
+    }
+    .middle {
+        flex-basis: 80%;
+        background-color: rgb(29, 184, 245);
+        order: 2;
+    }
+    footer {
+        flex-basis: 100%;
+        background-color: rgb(245, 91, 245);
+        padding: 10px 0;
+        order: 5;
+    }
+    
+    .left, .right, .middle {
+        height: 400px;
+    }
+}
+@media(max-width:768px) {
+    .flex {
+        font-size: 25px;
+    }
+    header {
+        flex-basis: 100%;
+        background-color: red;
+        padding: 10px 0;
+        order: 1;
+    }
+    .left {
+       
+        flex-basis: 100%;
+        background-color: rgb(43, 102, 3);
+        order: 3;
+    }
+    .right {
+       
+        flex-basis: 100%;
+        background-color: rgb(255, 188, 244);
+        order: 4;
+    }
+    .middle {
+        flex-basis: 100%;
+        background-color: rgb(29, 184, 245);
+        order: 2;
+    }
+    footer {
+        flex-basis: 100%;
+        background-color: rgb(245, 91, 245);
+        padding: 10px 0;
+        order: 5;
+    }
+    
+    .left, .right, .middle {
+        height: 300px;
+    }
+}

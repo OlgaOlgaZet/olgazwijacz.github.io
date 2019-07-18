@@ -1,0 +1,29 @@
+* {
+    margin:0;
+    padding:0;
+    font-family: Verdana, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+header {
+    background-image: url("../images/man-1.jpg");
+    background-size: cover;
+    background-position-y: -170px;
+    background-repeat: no-repeat;
+    height: 100vh;
+    text-transform: uppercase;
+    color: #fff;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    
+}
+h1 {
+    font-size: 45px;
+    line-height: 80px;
+    font-weight: 800;
+    margin: 0 50px;
+
+}
+span {
+    font-size: 30px;
+}

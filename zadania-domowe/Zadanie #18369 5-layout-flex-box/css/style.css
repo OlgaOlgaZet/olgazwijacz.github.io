@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+    text-transform: uppercase;
+    box-sizing: border-box;
+   
+}
+.flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+   text-align: center;
+   font-size: 4px;
+}
+header {
+    flex-basis: 100%;
+    background-color: red;
+    padding: 20px 0;
+}
+.left {
+    flex-basis: 20%;
+    background-color: rgb(43, 102, 3);
+    
+}
+.right {
+    flex-basis: 20%;
+    background-color: rgb(255, 188, 244);
+ 
+}
+.middle {
+    flex-basis: 60%;
+    background-color: rgb(29, 184, 245);
+    
+}
+footer {
+    flex-basis: 100%;
+    background-color: rgb(245, 91, 245);
+    padding: 20px 0;
+}
+
+.left, .right, .middle {
+    height: 500px;
+}
