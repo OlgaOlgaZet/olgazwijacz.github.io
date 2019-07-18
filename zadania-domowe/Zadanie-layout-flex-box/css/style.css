@@ -11,7 +11,7 @@
     flex-direction: row;
     flex-wrap: wrap;
    text-align: center;
-   font-size: 4px;
+   font-size: 40px;
 }
 header {
     flex-basis: 100%;
