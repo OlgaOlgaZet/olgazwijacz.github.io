@@ -1,0 +1,58 @@
+@media (max-width: 980px) {
+    /*O MNIE*/
+.portfolio .portfolio-wrapper .portfolio-item{
+    position: relative;
+    flex-basis:50%;
+}
+.form-wrapper {
+    width: 80%;
+}
+.flex  {
+    width: 100%;
+}
+.item1, .item2 {
+    flex-basis: 100%;
+    }
+    textarea{
+        margin-bottom: 15px;
+    }
+}
+@media (max-width:480px) {
+    /*  media nav */
+    .nav-menu {
+  display:none;
+}
+    label {
+      display: block;
+      padding: 10px 15px;
+      text-transform: uppercase;
+      color:#fff;
+      text-align: right;
+      font-size: 1.2em;
+}
+#drop-nav:checked + .nav-menu {
+    display: block;
+}
+.main-nav .nav-menu .nav-menu-item {
+    display: block;
+    text-align: right;
+}
+
+/* O MNIE */
+.picofme{
+    width: 70%;
+    height: auto;
+    margin-top: 30px;
+}
+.opis {
+    width: 90%;
+}
+.btn {
+    margin-bottom: 40px;
+}
+.portfolio .portfolio-wrapper .portfolio-item{
+    position: relative;
+    flex-basis:100%;
+}
+}
+

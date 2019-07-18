@@ -1,0 +1,54 @@
+.box {
+    border: 2px solid red;
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-around;
+
+    flex-wrap: wrap;
+ 
+    
+}
+.item {
+    border: 2px solid green;
+    padding: 5px;
+    margin:5px;
+    width: 200px;
+    overflow:hidden;
+    
+   
+   /*  flex-basis: 25%; flex-basis: odpowiada za szerokość dzieci we flexie */
+ 
+}
+.item2 {
+    flex-grow: 1;
+    order:0;
+}
+.item1 {
+    order:2;
+    flex-grow: 4;
+    }
+    
+.item3 {
+    order:1;
+    flex-grow: 2;
+    }
+
+
+
+/* rodzic:
+display:flex
+justify-content
+align-item
+
+dziecko:
+flex-basic
+align-self
+
+
+
+
+
+
+baseline = wyrównuje do pierwszego akapitu*/
+

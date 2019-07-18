@@ -1,0 +1,27 @@
+/* inline-block
+
+z inline ma
+-w lini
+-text-aligh
+-hight+width 
+-padding
+*/ 
+nav {
+    background-color: #000;
+    text-align: center;
+}
+
+li {
+    display: inline-block;
+    color: #fff;
+    padding: 10px 15px;
+    width: 100%;
+}
+
+p {
+    display: inline-block;
+    border: solid 1px black;
+    width: 300px;
+   
+
+}

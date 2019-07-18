@@ -1,0 +1,258 @@
+
+  /* TREŚĆ WŁAŚCIWA STRONY */
+/* USTAWIENIA GLOBALNE */
+* {
+    color: #333;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+hr {
+  background-color: #007bff;
+  width: 100px;
+  height: 2px;
+  border: none;
+  margin-bottom:10px;
+}
+.btn {
+  background-color: transparent;
+  border: 1px solid #007bff;
+  font-size: 16px;
+  text-transform: uppercase;
+  padding: 15px 32px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: .3s all;
+  display: inline-block
+}
+.btn:hover {
+  background-color: #007bff;
+  color: #fff;
+}
+
+  /* HEADER */
+.main-header {
+    padding: 10% 0;
+    background-image: url("../images/header.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    
+    flex-wrap:wrap;
+    flex-direction: column;
+    
+   
+    text-transform: uppercase;
+}
+.main-header .content {
+  text-align: center;
+}
+.main-header .content h1{
+    color:#007bff;
+    font-size: 3.3em;
+}
+.main-header p {
+    color: #007bff;
+    text-align: center;
+    
+}
+.content ul {
+    list-style-type: none;
+    text-decoration: none;
+ 
+    margin: 0 auto;
+    padding: 0;
+    margin-bottom: 55px;
+}
+.content ul li {
+  display: inline-block;
+  font-size: 1.6em;
+  text-transform: initial;
+}
+li .blue {
+  color: #007bff;
+  font-size: 1.3em;
+}
+.main-nav {
+  position: sticky;
+  top: 0;
+  background-color:  #007bff;
+  padding: 5px;
+  z-index: 100;
+}
+.main-nav .nav-menu {
+margin: 0 10px;
+}
+.main-nav .nav-menu {
+  list-style-type: none;
+  text-align: center;
+}
+.main-nav .nav-menu .nav-menu-item {
+  display: inline-block;
+  padding: 10px 0;
+}
+.main-nav .nav-menu .nav-menu-item a {
+  text-decoration: none;
+  text-transform: uppercase;
+  margin-bottom: 55px;
+  color:#fff;transition: .3s all;
+  padding: 10px 15px;
+}
+.main-nav .nav-menu .nav-menu-item a:hover{
+  color: #007bff;
+  background-color: #fff;
+}
+label, #drop-nav {
+  display: none;
+}
+/* O MNIE */
+section {
+  margin: 90px 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap:wrap;
+  flex-direction: column;
+}
+.tytul_podstr {
+  font-size:2.3em;
+  font-weight: 100;
+  padding-bottom: 25px;
+  text-transform: uppercase;
+  
+}
+.picofme {
+  margin-top:80px;
+  margin-bottom:20px;
+  border-radius: 50%;
+  width: 30%;
+  height: auto;
+}
+.opis {
+  width: 50%;
+  padding-bottom: 50px;
+}
+.tekst {
+color: #777;
+text-align: center;
+}
+.tekst1 {
+padding: 30px 0;
+}
+/* PORTFOLIO */
+.portfolio {
+  background-color: #f2f1ed;
+  text-align: center;
+  
+}
+.tytul_podstr.dwa {
+  padding-top: 90px;
+
+}
+.portfolio .portfolio-wrapper {
+  width: 80%;
+  height: auto;
+  margin-top: 50px;
+   display: flex;
+  flex-wrap:wrap;
+  flex-direction:row;
+ justify-content: space-between;
+}
+ .portfolio  .portfolio-wrapper .portfolio-item{
+  position: relative;
+  flex-basis:25%;
+  height:200px;
+}
+.portfolio .portfolio-wrapper .portfolio-item img {
+  width:100%;
+  height:100%;
+  object-fit: cover;
+  object-position: center;
+}
+.portfolio .portfolio-wrapper .portfolio-item h3  {
+  position: absolute;
+ line-height:200px;
+ top:0;
+  width:100%;
+  height:100%;
+  background-color: rgba(0, 123, 255, 0.8);
+  opacity:0;
+  text-align: center;
+  color:white;
+  text-transform: uppercase;
+  font-size:1.3em;
+  font-weight: 100;
+} 
+.portfolio .portfolio-wrapper .portfolio-item:hover h3 {
+  opacity:1;
+}
+/* FORMULARZ */
+.form-wrapper{
+  width: 50%;
+  padding: 15px 0;
+  text-align: center;
+}
+.flex {
+  display:flex;
+  flex-direction:row;
+  flex-wrap:wrap;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+.item1 {
+flex-basis: 48%;
+}
+.item2 {
+  flex-basis: 48%;
+}
+.item3 {
+  flex-basis: 100%;
+  height: 200px;
+}
+input,textarea {
+  outline: none;
+  font-size: 0.9em;
+  padding: 15px 15px;
+}
+textarea {
+  margin-top: 15px;
+
+}
+input:hover, textarea:hover {
+  outline: none;
+  color: #777;
+  font-size: 0.9em;
+  background-color: rgba(0, 123, 255, 0.8)
+}
+input[type=submit] {
+margin-top: 15px;
+margin: 2% auto;
+  }
+.formularz {
+  margin:0 auto;
+}
+.media {
+  margin:0 auto;
+  text-align: center;
+
+}
+.media ul {
+  text-decoration: none;
+}
+.media ul li{
+  display: inline-block;
+}
+.ikonki {
+  font-size: 2em;
+  padding:25px;
+  color: #007bff;
+
+}
+footer{
+  background-color: #f2f1ed;
+  text-align:center;
+  padding: 40px 0;
+  margin:10px;
+}
