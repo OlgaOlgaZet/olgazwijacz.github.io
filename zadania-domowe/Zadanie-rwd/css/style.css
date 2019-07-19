@@ -7,7 +7,7 @@
 header {
     background-image: url("../images/man-1.jpg");
     background-size: cover;
-    background-position-y: -170px;
+  
     background-repeat: no-repeat;
     height: 100vh;
     text-transform: uppercase;
