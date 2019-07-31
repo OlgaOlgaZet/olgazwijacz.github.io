@@ -1,0 +1,36 @@
+form {
+    font-size: 16px;
+    color: #fff;
+    width: 50%;
+    background-color: green;
+    padding: 30px;
+}
+
+input, label {
+    display: inline-block;
+}
+
+input[type='text'], input[type='email'] {
+    height: 20px;
+    width: 100%;
+}
+
+input[type='Submit'] {
+    background-color: burlywood;
+    color: #fff;
+    text-transform: uppercase;
+    border: 0;
+    margin-top: 10px;
+    margin-left: 30px;
+    padding: 10px 20px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+input[type='Submit']:hover {
+    background-color: grey;
+}
+
+#wiadomosc {
+    color: red;
+}
