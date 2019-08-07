@@ -1,0 +1,22 @@
+body {
+  background-color: #2bec62;
+  color: #6b28c4; }
+
+nav {
+  background-color: #cacaca; }
+  nav ul {
+    margin-left: 300px; }
+    nav ul li {
+      color: chocolate; }
+      nav ul li a {
+        color: #990a1d; }
+
+.btn-primary {
+  padding: 20px;
+  background-color: #05464b;
+  border-radius: 5px;
+  color: greenyellow; }
+
+p {
+  color: red;
+  font-size: 20px; }

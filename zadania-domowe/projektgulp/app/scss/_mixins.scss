@@ -1,0 +1,10 @@
+@mixin button {
+    padding: 20px;
+    background-color: $btn-color;
+    border-radius: $main-border-rad;
+}
+
+@mixin paragraph($color) {
+color: $color;
+font-size: 20px;
+}
