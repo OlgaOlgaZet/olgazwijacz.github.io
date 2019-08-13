@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+}
+.my-skills {
+    text-align: center;
+}
+.my-skills h1 {
+    color: rgb(155, 153, 153);
+    font-size: 2em;
+    font-weight: 400;
+    padding-top: 50px;
+   
+}
+.my-skills hr {
+    width: 20%;
+}
+
+.div-item .fab {
+    font-size: 4em;
+    color: rgb(236, 140, 29);
+    width: 120px;
+    height: 120px;
+    line-height:120px;
+    border-radius:50%;
+    background-color: rgb(245, 245, 245);
+    margin-top: 20px;
+
+}
+.div-item p {
+    color: rgb(110, 109, 109); 
+    font-size: 1.5em;
+    margin-top: 10px;
+}
+.div-item sub {
+    font-size: 1.05em;  
+}

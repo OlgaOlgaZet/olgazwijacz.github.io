@@ -1,0 +1,32 @@
+.main-header {
+  position: absolute;
+  left: 0;
+  right: 0;
+  color: $light-color;
+  .container {
+    justify-content: space-between;
+    align-items: center;
+    .main-logo {
+      h1 {
+        display: inline-block;
+      }
+      .fas {
+        @include fa-header;
+        color: $primary-color;
+      }
+    }
+
+    .header-contact {
+      display: flex;
+
+      .fas {
+        @include fa-header;
+      }
+
+      .contact-info {
+        display: flex;
+        flex-direction: column;
+      }
+    }
+  }
+}
