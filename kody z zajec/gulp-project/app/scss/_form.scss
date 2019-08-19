@@ -1,0 +1,49 @@
+.form-section {
+  background-image: url(../img/background.png);
+  background-position: top;
+  background-size: cover;
+  height: 100vh;
+  min-height: 700px;
+
+  &-item {
+    position: absolute;
+    top: 25%;
+    right: 10%;
+    width: 370px;
+
+    h2 {
+      color: $light-color;
+      span {
+        color: $primary-color;
+      }
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+      background-color: $secondary-color;
+      padding: 10px;
+
+      header {
+        color: $light-color;
+        font-weight: 600;
+        font-size: 1.2em;
+        margin-bottom: 10px;
+      }
+
+      input:not([type='submit']), textarea {
+        @include inputs;
+        margin-bottom: 10px;
+      }
+
+      input[type='submit'] {
+        width: 100px;
+        background-color: $primary-color;
+        padding: 20px;
+        border: none;
+        font-size: 1.2em;
+        font-weight: 700;
+      }
+    }
+  }
+}
